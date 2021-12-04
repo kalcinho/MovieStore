@@ -32,10 +32,3 @@ class Database:
 
     def __del__(self):
         self.conn.close()
-
-
-#insert("Jurassic Park","Steven Spielberg",1993,463287947)
-#delete(2)
-#update(1,"28 Days Later","Danny Boyle",2002,135461985)
-#print(view())
-#print(search(director="James Cameron"))
